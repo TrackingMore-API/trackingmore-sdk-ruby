@@ -8,8 +8,6 @@ module TrackingMore
     @@apiPort = 443
     @@apiVersion = 'v4'
     @@timeout = 10
-    @@proxy_host = '192.168.2.198'
-    @@proxy_port = 7890
 
     def self.get_request_url(path)
       pact = @@apiPort == 443 ? 'https' : 'http'
@@ -43,7 +41,7 @@ module TrackingMore
         uri.query = query_string
       end
 
-      http = Net::HTTP.new(uri.host, uri.port,@@proxy_host,@@proxy_port)
+      http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = uri.scheme == 'https'
 
       http.open_timeout = 10
