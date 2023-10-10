@@ -14,7 +14,7 @@ end
 begin
   # params  = {"tracking_numbers" => "92612903029511573130094547","courier_code"=>"usps"}
   # params  = {"tracking_numbers" => "92612903029511573130094547,92612903029511573030094548","courier_code"=>"usps"}
-  params  = {"created_date_min" => "2023-08-23T14:00:00+08:00","created_date_max"=>"2023-08-23T15:04:00+08:00"}
+  params  = {"created_date_min" => "2023-10-09T06:00:00+00:00","created_date_max"=>"2023-10-10T13:45:00+00:00"}
   response = TrackingMore::Tracking.get_tracking_results(params)
   puts response
 rescue TrackingMore::TrackingMoreException => e
