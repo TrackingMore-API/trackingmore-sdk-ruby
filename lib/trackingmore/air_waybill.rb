@@ -6,7 +6,7 @@ module TrackingMore
       if params["awb_number"].to_s.empty?
         raise TrackingMore::TrackingMoreException.new(TrackingMore::Consts::ErrMissingAwbNumber)
       end
-      if params["awb_number"].length != 12
+      if !params['awb_number'].match(/^\d{3}[ -]?(\d{8})$/)
         raise TrackingMore::TrackingMoreException.new(TrackingMore::Consts::ErrInvalidAirWaybillFormat)
       end
       TrackingMore::Request.make_request('post',"awb",params)

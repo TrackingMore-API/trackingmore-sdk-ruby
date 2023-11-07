@@ -8,6 +8,8 @@ begin
   puts response
 rescue TrackingMore::TrackingMoreException => e
   puts "Caught Custom Exception: #{e.message}"
+rescue StandardError => e
+  puts "Caught Standard Error: #{e.message}"
 end
 
 
@@ -17,4 +19,6 @@ begin
   puts response
 rescue TrackingMore::TrackingMoreException => e
   puts "Caught Custom Exception: #{e.message}"
+rescue StandardError => e
+  puts "Caught Standard Error: #{e.message}"
 end
