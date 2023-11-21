@@ -1,7 +1,7 @@
 trackingmore-sdk-ruby
 =================
 
-The Ruby SDK of Trackingmore API
+The Ruby SDK of TrackingMore API
 
 Contact: <manage@trackingmore.org>
 
@@ -11,13 +11,13 @@ Contact: <manage@trackingmore.org>
 
 
 ## Index
-1. [Installation](https://github.com/TrackingMores/trackingmore-sdk-ruby#installation)
-2. [Testing](https://github.com/TrackingMores/trackingmore-sdk-ruby#testing)
-3. [Error Handling](https://github.com/TrackingMores/trackingmore-sdk-ruby#error-handling)
+1. [Installation](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#installation)
+2. [Testing](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#testing)
+3. [Error Handling](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#error-handling)
 4. SDK
-    1. [Couriers](https://github.com/TrackingMores/trackingmore-sdk-ruby#couriers)
-    2. [Trackings](https://github.com/TrackingMores/trackingmore-sdk-ruby#trackings)
-    3. [Air Waybill](https://github.com/TrackingMores/trackingmore-sdk-ruby#air-waybill)
+    1. [Couriers](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#couriers)
+    2. [Trackings](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#trackings)
+    3. [Air Waybill](https://github.com/TrackingMore-API/trackingmore-sdk-ruby#air-waybill)
 
 
 ## Installation
