@@ -6,3 +6,9 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+# IDEs
+.idea/
+
+# 忽略以 .gem 结尾的文件
+*.gem

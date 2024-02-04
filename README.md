@@ -31,7 +31,7 @@ gem install trackingmore
 ```ruby
 require  'trackingmore'
 
-TrackingMore.api_key = 'you api key'
+TrackingMore.api_key = 'your api key'
 
 begin
   response = TrackingMore::Courier.get_all_couriers
@@ -73,7 +73,7 @@ end
 ```ruby
 require  'trackingmore'
 
-TrackingMore.api_key = 'you api key'
+TrackingMore.api_key = 'your api key'
 
 begin
   params  = {"tracking_number" => ""}

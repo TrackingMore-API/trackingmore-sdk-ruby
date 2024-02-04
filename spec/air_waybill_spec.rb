@@ -4,7 +4,7 @@ require 'trackingmore'
 
 describe TrackingMore::AirWaybill do
   before do
-    TrackingMore.api_key = 'you api key'
+    TrackingMore.api_key = 'your api key'
   end
 
   describe '.create_an_air_waybill' do

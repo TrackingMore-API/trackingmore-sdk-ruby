@@ -4,7 +4,7 @@ require 'trackingmore'
 
 describe TrackingMore::Courier do
   before do
-    TrackingMore.api_key = 'you api key'
+    TrackingMore.api_key = 'your api key'
   end
 
   describe '.get_all_couriers' do

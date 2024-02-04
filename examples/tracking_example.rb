@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require  'trackingmore'
 
-TrackingMore.api_key = 'you api key'
+TrackingMore.api_key = 'your api key'
 
 begin
   params  = {"tracking_number" => "92612913029511573130094547","courier_code"=>"usps"}

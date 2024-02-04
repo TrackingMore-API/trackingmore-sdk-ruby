@@ -4,7 +4,7 @@ require 'trackingmore'
 
 describe TrackingMore::Request do
   before do
-    TrackingMore.api_key = 'you api key'
+    TrackingMore.api_key = 'your api key'
   end
 
   describe '.make_request' do
